@@ -1,0 +1,105 @@
+/* whole part work on body */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(111, 167, 211);
+}
+.Homebar{
+    overflow: hidden;
+    background: #f0f0f1;
+    line-height: 40px;
+}
+nav a{
+    float: left;
+    display: block;
+    width: 120px;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+nav a:hover{
+    background: #ddd;
+    color:black;
+}
+nav a.active{
+    background: #2196f3;
+    color: white;
+}
+nav .container{
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+nav input[type=text],input[type=password]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+}
+.container button{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 17px;
+    border:none;
+    cursor: pointer;
+}
+.container button:hover{
+    background: #ccc ;
+}
+/* Header design section */
+ nav{
+    margin-top: 10px;
+    background-color:#f0f0f1;
+    display: flex;
+    justify-content: space-between;
+} 
+.headertext{
+    color:blue
+}
+.navstyle{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    color: rgb(127, 129, 255);
+    font-size: large;
+    font-weight: 800;
+    text-decoration-color: blue;
+    border: 2px solid black;
+}
+ 
+
+/* Working with section one  */
+.firstpart{
+    background-color: rgb(232, 244, 246);
+    margin-top: 10px;
+    text-align: center;
+    color: blue;   
+}
+.bmcc{
+    color: rgb(255, 0, 51);
+}
+.imagestudent{
+    border: 2px solid whitesmoke;
+    border-radius: 60px;
+}
+.questions{
+    color:rgb(242, 239, 239);
+}
+.description{
+    color:rgb(238, 237, 228);
+}
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(239, 244, 241);
+    font-size: large;
+}
