@@ -80,7 +80,7 @@ nav input[type=text],input[type=password]{
 /* Working with section one  */
 .firstpart{
     background-color: rgb(232, 244, 246);
-    margin-top: 100px;
+    margin-top: 10px;
     text-align: center;
     color: blue;   
 }
@@ -92,13 +92,14 @@ nav input[type=text],input[type=password]{
     border-radius: 60px;
 }
 .questions{
-    color:red;
+    color:rgb(242, 239, 239);
 }
 .description{
-    color:blue;
+    color:rgb(238, 237, 228);
 }
 .footer{
     text-align: center;
     margin-top: 50px;
-    color: blue;
+    color: rgb(239, 244, 241);
+    font-size: large;
 }
