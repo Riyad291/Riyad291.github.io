@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        header {
+            background-color: #3446e6;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav {
+            background-color:  #8bcce4;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        .container {
+            margin: 20px auto;
+            width: 80%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .assignment {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        .dropdown {
+            margin-bottom: 10px;
+        }
+
+        select {
+            padding: 8px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/start-here-cuny-5.png" alt="Start Here Go Anywhere">
+        <h1>Professor Portal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="file:///Users/yeasinarafatriyad/Downloads/BMCC_INC_Grade/index.html">Home</a></li>
+    
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Assignments</h2>
+        <!-- Section for assigning assignments -->
+        <div class="assignment">
+            <h3>Assign Assignment</h3>
+            <div>
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName">
+            </div>
+            <div>
+                <label for="studentID">Student ID:</label>
+                <input type="text" id="studentID" name="studentID">
+            </div>
+            <div class="dropdown">
+                <label for="dueDate">Due Date:</label>
+                <select id="dueDate" name="dueDate">
+                    <option value="priority">Priority Due Date</option>
+                    <option value="ultimate">Ultimate Due Date</option>
+                </select>
+            </div>
+            <button>Assign</button>
+        </div>
+        <!-- Existing section for viewing assignments -->
+        <div class="assignment">
+            <h3>Assignment 1</h3>
+            <p>Description: Write an essay on a given topic.</p>
+            <p>Due Date: March 25, 2024</p>
+            <button>Send Reminder</button>
+        </div>
+        <div class="assignment">
+            <h3>Assignment 2</h3>
+            <p>Description: Solve the given set of mathematical problems.</p>
+            <p>Due Date: April 5, 2024</p>
+            <button>Send Reminder</button>
+        </div>
+        <!-- Section for viewing student progress -->
+        <div class="assignment">
+            <h3>Student Progress</h3>
+            <div>
+                <label for="studentSelect">Select Student:</label>
+                <select id="studentSelect" name="studentSelect">
+                    <option value="student1">Student 1</option>
+                    <option value="student2">Student 2</option>
+                    <!-- Add more options for other students -->
+                </select>
+            </div>
+            <!-- Placeholder for displaying student progress -->
+            <div id="studentProgress">
+                <!-- Progress will be displayed here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
