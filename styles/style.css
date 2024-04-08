@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(111, 167, 211);
+    background-color:#5babda;
 }
 .Homebar{
     overflow: hidden;
@@ -58,11 +58,18 @@ nav input[type=text],input[type=password]{
 /* Header design section */
  nav{
     margin-top: 10px;
-    background-color:#f0f0f1;
+    background-color: #f0f0f1;
     display: flex;
     justify-content: space-between;
 } 
+header {
+    background-color: #3446e6;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
 .headertext{
+    justify-content: center;
     color:blue
 }
 .navstyle{
@@ -80,7 +87,7 @@ nav input[type=text],input[type=password]{
 /* Working with section one  */
 .firstpart{
     background-color: rgb(232, 244, 246);
-    margin-top: 10px;
+    margin-top: 0px;
     text-align: center;
     color: blue;   
 }
@@ -89,7 +96,7 @@ nav input[type=text],input[type=password]{
 }
 .imagestudent{
     border: 2px solid whitesmoke;
-    border-radius: 60px;
+    border-radius: 40px;
 }
 .questions{
     color:rgb(242, 239, 239);
