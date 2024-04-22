@@ -6,3 +6,4 @@ CREATE TABLE Students (
 INSERT INTO Students (Username, PasswordHash) VALUES
 ('student1', 'hashed_password1'),
 ('student2', 'hashed_password2');
+
